@@ -1,0 +1,299 @@
+/*{
+    box-sizing:
+    border-box,
+    padding: 0,
+    margin: 0,
+}*/
+
+/******Global******/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-weight: 800px;
+    color: #FFFFFF;
+    font-size:48px;
+}
+
+h2{
+    font-weight: 700;
+    color: #900722;
+    font-size: 2rem;
+}
+
+h4{
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+hr{
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.material-symbols-outlined {
+  color: #C20B31;
+}
+
+body {
+	background: #e03a29;
+}
+body, html {
+			box-sizing:border-box;
+}
+
+body{
+   background: #FFFFFF; 
+}
+
+/******Header******/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.navbar .material-symbols-outlined{
+    font-size: 2rem;
+}
+
+.imagen-deportes{
+    padding-left: 30px;
+}
+
+/***JS styling***/
+.close-menu{
+    display: none;
+}
+
+.nav-menu{
+background: transparent;
+height: 0;
+overflow: hidden;
+}
+.show-nav{
+    height: auto;
+}
+
+.nav-menu ul li{
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all 1s ease-in-out;
+}
+
+.nav-menu ul li:hover{
+    background: #900722;
+}
+
+.nav-menu ul li a{
+    color: #C20B31;
+    text-transform: uppercase;
+}
+
+.nav-menu ul li a:hover{
+    text-decoration: underline;
+}
+
+
+@media(min-width: 800px){
+    /*nav*/
+    .menu, .close-menu{
+        display: none!important;
+    }
+
+
+.navbar{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 15%;
+}
+
+.nav-menu{
+    flex: 1 0 auto;
+    height: auto;
+    background: transparent;
+}
+
+.nav-menu nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu nav ul li{
+    padding-right: 30px;
+}
+
+.nav-menu nav ul li:hover{
+    background: none;
+}
+
+.nav-menu ul li a{
+    color: #C20B31;
+    text-transform: uppercase;
+}
+}
+
+.go-back{
+    display: flex;
+    align-items: center;
+    background: #000000;
+    height: 22px;
+    justify-content: right;
+}
+
+#return{
+    color:#FFFFFF;
+    padding-left: 10px;
+}
+
+#excelsior{
+    height: 22px;
+}
+
+/******Banner******/
+
+.bets{
+    background: #ef1404;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#caliente{
+    height: 100px;
+}
+
+.bet-bttn{
+    background-color: #6dd61d;
+    color: #FFFFFF;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+    width: 250px;
+}
+
+.games{
+    background: #861A19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3vw;
+    padding: 20px;
+}
+
+.slide-bttn{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+#left-arrow{
+    color: #861A19;
+}
+#right-arrow{
+    color: #861A19;
+}
+
+.pl-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pl-bonus{
+    background: #6dd61d;
+    border-radius: 75px 75px;
+    height: 32px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-pic{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    height: 80px;
+}
+
+.match-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    gap: 2px 5px;
+    padding: 0px;
+}
+#vs{
+    font-size: 40px;
+    font-weight: 700;
+    padding: opx;
+}
+
+.small-bet-bttn{
+    background-color: #6dd61d;
+    color: #FFFFFF;
+    padding: 7px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border: none;
+    width: 110px;
+}
+
+/******Homepage******/
+.homepage{
+    display: flex;
+    min-height: auto;
+    padding: 30px 0px;
+    margin-top: 8px;
+    justify-content: center
+}
+
+.highlight{
+    position: relative;
+    width: 300px;
+    height: auto;
+    padding: 12px;
+}
+.highlight img{
+    display: block;
+}
+
+.highlight-content{
+    line-height: 1.3;
+}
+.highlight-content span{
+    font-weight: 200;
+}
+
